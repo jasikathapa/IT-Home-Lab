@@ -1,0 +1,19 @@
+## Lab Setup Instructions
+
+### Step 1: Setup VirtualBox
+1. Download and installed VirtualBox from vituralbox.org on to my computer.
+2. Configure Network Setting
+Files -> Tools -> Network -> NAT Network -> Create
+
+   - Network: NAT Network
+   - IPv4 Prefix: 10.0.2.0/24
+   - DHCP: Enabled
+   
+### Step 2: Create a Window Server 
+1. Create a Windows Server 2022 VM (DC01):
+   - RAM: 4 GB, 
+   - CPU: 2 cores,
+   - Disk: 50GB
+   - Newtork : NAT network
+   - 
+###
