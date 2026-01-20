@@ -20,3 +20,10 @@
   - Subnet Mask: 255.255.255.0
   - Default gatway: 10.0.2.1
   - DNS server: 10.0.2.4
+
+### Step 4: Test Domian login
+  - At login screen, clicked "Other user"
+  - Typed: talyor.swift and Entered password: TempPass123!
+  - Windows prompted me to change password
+  - Set new password
+  - Successfully logged in!
