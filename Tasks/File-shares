@@ -1,0 +1,8 @@
+
+### File Share Setup
+
+- Created shared folder: `EngineeringShare`
+- Configured NTFS permissions
+- Disabled inherited permissions
+- Restricted access to Engineering users only
+
