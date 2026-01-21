@@ -107,6 +107,8 @@ selena.gomez → IT Department
 - Selected "Domain" and typed: LAB.local
 - Entered domain admin username and password
 - Computer restarted
+
+##### 4. Verification
 - Test domian was joined by logging in to CLIENT01 using domain credentials
 - Windows prompted me to change password
 - Successfully logged in!
