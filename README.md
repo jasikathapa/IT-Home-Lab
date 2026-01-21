@@ -90,6 +90,7 @@ LAB.local
 On Active Directory:
 - Create shared Folder winthin Engineering, named `EngineeringShare
 - Add users: Talyor and Justin
+
 On share:
 - create new share name: EngineeringShare
 - Clicked Customized NTFS permissions -> Disabled inheritance from parent folder
