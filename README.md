@@ -3,7 +3,14 @@
 This repository documents my personal IT Home Lab built using VirtualBox.
 It includes a Windows Server 2022 Domain Controller (DC01) and a Windows 11 Pro Client (CLIENT01).
 The lab simulates a small business IT environment to practice 1st Line / Junior IT Support tasks.
-
+## Respistory
+```
+.local
+├── README.md
+├── Tasks
+  ├── ...
+├── Troubleshotting
+```
 ## Table of Contents
 1. [VirtualBox Setup](#virtualbox-setup)
 2. [Windows Server Setup](#windows-server-setup)
