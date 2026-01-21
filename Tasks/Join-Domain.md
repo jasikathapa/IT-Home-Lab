@@ -2,18 +2,35 @@
 
 This document outlines the Active Directory tasks completed in the IT Home Lab.
 
----
 
-### Organizational Units
+#### Install Active Directory
+- Server Manager → Manage → Add Roles and Features  
+- Installation type: Role-based or feature-based  
+- Role: Active Directory Domain Services → Install  
+- Promote server to Domain Controller  
+- Create **New Forest** and Domain: `LAB.local`  
+- Set DSRM password  
+- Restart server after installation
 
----
+#### Create Organizational Units
 
-### User Creation
+```
+LAB.local
+├── IT Department
+├── HR Department
+├── Engineering Department
+```
+#### User Creation 
+
+| Username      | Full Name       | Password  | 
+|---------------|----------------|-----------|
+| justin.biber  | Justin Biber    | Pa55word  |
+| talyor.swift  | Talyor Swift    | Pa55word  |
+| selena.gomez  | Selena Gomez    | Pa55word  |
 
 - Created test user accounts in Active Directory  
 - Assigned users to appropriate departments (OUs)
-
----
+- 
 
 ### File Share Setup
 
@@ -22,7 +39,7 @@ This document outlines the Active Directory tasks completed in the IT Home Lab.
 - Disabled inherited permissions
 - Restricted access to Engineering users only
 
----
+
 
 ### Domain Join
 
