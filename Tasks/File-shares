@@ -1,4 +1,11 @@
 
+On share:
+- create new share name: EngineeringShare
+- Clicked Customized NTFS permissions -> Disabled inheritance from parent folder
+- Removed unrelated users/groups
+- Added only the EngineeringShare 
+
+
 ### File Share Setup
 
 - Created shared folder: `EngineeringShare`
