@@ -113,11 +113,4 @@ selena.gomez → IT Department
 <img width="343" height="116" alt="Screenshot 2026-01-20 214149" src="https://github.com/user-attachments/assets/37cacf58-f8c4-47d0-ad7b-43d506224799" />
 
 
-On share:
-- create new share name: EngineeringShare
-- Clicked Customized NTFS permissions -> Disabled inheritance from parent folder
-- Removed unrelated users/groups
-- Added only the EngineeringShare 
-
-
   
