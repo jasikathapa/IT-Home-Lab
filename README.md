@@ -8,13 +8,10 @@ The lab simulates a small business IT environment to practice 1st Line / Junior 
 1. [VirtualBox Setup](#virtualbox-setup)
 2. [Windows Server Setup](#windows-server-setup)
 3. [Windows 11 Client Setup](#windows-11-client-setup)
-4. [Active Directory Users](#active-directory-users)
-5. [Testing Domain Login](#testing-domain-login)
-6. [Troubleshooting](#troubleshooting)
+4. [Tasks](#tasks)
+5. [Troubleshooting](#troubleshooting)
 
 ## VirtualBox Setup
-
-### ✅ Steps
 - [ ] Download and install [VirtualBox](https://www.virtualbox.org/) on your host machine
 - [ ] Create NAT Network:
   1. **File → Tools → Network → NAT Network → Create**
@@ -68,3 +65,13 @@ The lab simulates a small business IT environment to practice 1st Line / Junior 
 - Subnet mask: `255.255.255.0`  
 - Default gateway: `10.0.2.1`  
 - DNS server: `10.0.2.4` (DC IP)
+
+## Tasks 
+### 1. Join CLient 01 to Domain controller.
+On Windows 10 VM:
+- Open Settings → Accounts → Access work or schools
+- Selected "Domain" and typed: LAB.local
+- Entered domain admin username and password
+- Computer restarted
+
+  
