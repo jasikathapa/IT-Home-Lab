@@ -1,11 +1,11 @@
 # File Share Setup
 This document outlines the steps to set up a shared folder for the Engineering Department in the IT Home Lab, 
 including specific access for a project manager in HR.
-
+```
 Ticket Request:
 Set up a file share only for the Engineering Department and add users Talyor and Justin. 
 Justin needs access as he is the project manager even though he belongs to HR.
-
+```
 ##### 1. Create group named EngineeringShare
 - Open Active Directory Users and Computers 
 - Navigate to Engineering Department OU → New → Group
