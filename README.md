@@ -67,11 +67,43 @@ The lab simulates a small business IT environment to practice 1st Line / Junior 
 - DNS server: `10.0.2.4` (DC IP)
 
 ## Tasks 
+### 1. Create Organizational Units
+```
+LAB.local
+├── IT Department
+├── HR Department
+├── Engineering Department
+```
+### 2. Create Users on Active Directory
+| Username      | Full Name       | Password  | 
+|---------------|----------------|-----------|
+| justin.biber  | Justin Biber    | Pa55word  |
+| talyor.swift  | Talyor Swift    | Pa55word  |
+| selena.gomez  | Selena Gomez    | Pa55word  |
+
+### 3. Assign Users to their departments
+- justin.biber → HR Department
+- talyor.swift → Engineering Department
+- selena.gomez → 
+
+### 4. EngineeringShare Folder Setup
+On Active Directory:
+- Create shared Folder winthin Engineering, named `EngineeringShare
+- Add users: Talyor and Justin
+On share:
+- create new share name: EngineeringShare
+- Clicked Customized NTFS permissions -> Disabled inheritance from parent folder
+- Removed unrelated users/groups
+- Added only the EngineeringShare 
+
+
+
 ### 1. Join CLient 01 to Domain controller.
 On Windows 10 VM:
 - Open Settings → Accounts → Access work or schools
 - Selected "Domain" and typed: LAB.local
 - Entered domain admin username and password
 - Computer restarted
+
 
   
