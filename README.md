@@ -5,7 +5,7 @@ It includes a Windows Server 2022 Domain Controller (DC01) and a Windows 11 Pro 
 The lab simulates a small business IT environment to practice 1st Line / Junior IT Support tasks.
 ## Respistory
 ```
-.local
+IT Home Lab
 ├── README.md
 ├── Tasks
   ├── ...
@@ -107,6 +107,8 @@ selena.gomez → IT Department
 - Selected "Domain" and typed: LAB.local
 - Entered domain admin username and password
 - Computer restarted
+  <img width="725" height="441" alt="Screenshot 2026-01-20 192744" src="https://github.com/user-attachments/assets/a3f29fe7-5bc7-4387-89fb-f9ebfb0c83d7" />
+  <img width="663" height="241" alt="Screenshot 2026-01-20 192820" src="https://github.com/user-attachments/assets/d74701a4-e7f5-4c8b-8d4e-698d71ee3cf7" />
 
 ##### 4. Verification
 - Test domian was joined by logging in to CLIENT01 using domain credentials
