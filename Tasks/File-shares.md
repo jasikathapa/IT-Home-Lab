@@ -34,8 +34,8 @@ Justin needs access as he is the project manager even though he belongs to HR.
 - on CLIENT01, map the shared folder to a network drive
 - select Reconnect at sign-in for persistent mapping
 - confirm both usercan access the mapped drive
-  <img width="624" height="500" alt="Screenshot 2026-01-20 235111" src="https://github.com/user-attachments/assets/14672d5b-1e99-426d-813d-ce5f390094c2" />
-  <img width="320" height="118" alt="Screenshot 2026-01-20 235144" src="https://github.com/user-attachments/assets/12a605a3-63a6-44f2-8656-0eb69cd71a58" />
+<img width="624" height="500" alt="Screenshot 2026-01-20 235111" src="https://github.com/user-attachments/assets/14672d5b-1e99-426d-813d-ce5f390094c2" />
+<img width="320" height="118" alt="Screenshot 2026-01-20 235144" src="https://github.com/user-attachments/assets/12a605a3-63a6-44f2-8656-0eb69cd71a58" />
 
 ### Skills Demonstrated
 - Active Directory security group management
